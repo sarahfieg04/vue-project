@@ -1,0 +1,29 @@
+{
+  "name": "back-end",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx nodemon --exec npx babel-node src/server.js"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "dependencies": {
+    "@babel/runtime": "^8.0.5",
+    "dotenv": "^18.0.9",
+    "express": "^5.2.1",
+    "mongodb": "^7.7.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^8.0.6",
+    "@babel/core": "^8.0.6",
+    "@babel/node": "^8.0.6",
+    "@babel/plugin-transform-runtime": "^8.0.6",
+    "@babel/preset-env": "^8.0.6",
+    "nodemon": "^3.1.14"
+  },
+  "allowScripts": {
+    "mongodb@7.7.0": true
+  }
+}
